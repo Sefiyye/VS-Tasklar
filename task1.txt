@@ -1,0 +1,22 @@
+using System;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = 246;
+            int eded = n;
+            int num;
+            int sum = 0;
+            while (eded > 0)     
+            {
+                num = eded % 10;
+                    sum += num;
+                    eded /= 10;
+                }
+            Console.WriteLine(sum);
+            }
+        }
+    }

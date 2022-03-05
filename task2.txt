@@ -1,0 +1,16 @@
+using System;
+
+namespace ConsoleApp4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] word = { "Kenan", "Aynure","Lamiye","Ömər","Zulfiyye" };
+            for (int i = 0; i < word.Length; i++)
+                if (word[i].Length > 5)
+                    Console.WriteLine(word[i]);
+
+        }
+    }
+}
